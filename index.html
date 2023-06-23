@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="data">
+              <div class="input-group">
+                <input id="location" type="search" class="form-control" placeholder="Search anything...">  
+                <button id="search-button" type="button" id="location-button" class="btn btn-primary">
+                  Search <i class="fa fa-search"></i>
+                </button>
+              </div><br>
+              Temp: <span id="viewData"></span><br>
+              location: <span id="viewLocation"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
